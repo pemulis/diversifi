@@ -55,9 +55,11 @@ DiversiFi’s debt marketplace could allow permissionless reselling of the debt 
 
 ## DiversiFi Buyer of Last Resort
 
-There is a chance that the pawnbroker defaults on their payments to the DiversiFi token holder. In that case, the token holder may choose to try to personally collect on the debt through the court system or resell the debt to someone in a better position to collect. The DiversiFi DAO itself could fund a smart contract, through transaction fees or otherwise, that acts as a buyer of last resort. Token holders could always sell their debt tokens to the buyer of last resort contract for a percentage of the principal set by the DiversiFi DAO governance process. This sets a floor on the amount of money a DiversiFi token holder may lose on a given investment.
+There should be numerous safeguards to protect DiversiFi lenders from losing money on their investments. Pawnbrokers would need to be approved by the DiversiFi DAO in order to issue debt tokens in the first place, and their overall debt burden and repayment history would be immutably and publicly stored on the blockchain for lenders to review before buying their tokens.
 
-A consequence of this safeguard is that there must always be enough money available to the buyer of last resort contract to cover the guaranteed portion of all of the loans in the system. For example, if the guaranteed percentage is 20%, and there is 1,000,000 Dai in the buyer of last resort contract, the total principal value of all outstanding debt tokens could not exceed 5,000,000 Dai.
+However, there will always be a chance that, for whatever reason, the pawnbroker defaults on their payments to a DiversiFi token holder. In that case, the token holder may choose to try to personally collect on the debt through the court system or, more likely, resell the debt to someone in a better position to collect. The DiversiFi DAO itself could fund a smart contract, through transaction fees or otherwise, that acts as a buyer of last resort. Token holders could always sell their debt tokens to the buyer of last resort contract for a percentage of the principal set by the DiversiFi DAO governance process. This sets a floor on the amount of money a DiversiFi token holder may lose on a given investment.
+
+A consequence of this safeguard is that there must always be enough money available to the buyer of last resort contract to cover the guaranteed portion of all of the loans in the system. For example, if the guaranteed percentage is 50%, and there is 1,000,000 Dai in the buyer of last resort contract, the total principal value of all outstanding debt tokens could not exceed 2,000,000 Dai.<sup>6</sup>
 
 ## DiversiFi DAO
 
@@ -66,6 +68,12 @@ There could be a DiversiFi DAO that manages the marketplace and smart contract e
 Governance token holders are incentivized to onboard pawnbrokers who will reliably pay their debts, because tokens in default can always be sold to DiversiFi’s buyer of last resort contract, leaving the DAO itself to try to collect the debt. The DAO’s ability to collect debts owed by a pawnbroker should be taken into account before approving a pawnbroker to sell debt tokens through DiversiFi. However, the DAO need not be the only buyer of distressed debt tokens, and other entities that believe they can efficiently collect on the debt may offer to buy the token at a rate higher than what is guaranteed by the buyer of last resort contract. Pawnbrokers who default on their debts may also be removed by DAO governance or automatically after a certain threshold.
 
 On the other hand, governance token holders are also incentivized to encourage as many transactions as possible in order to increase transaction fees and profit sharing. In order to accomplish this, the DAO may vote to hire contractors to develop web and mobile interfaces, improve DiversiFi’s smart contracts, provide outreach to pawnbrokers and lenders, evaluate and propose new pawnbrokers, and assist in legal and regulatory compliance matters.
+
+## Pawnbroker Onboarding and Debt Collection
+
+DAOs have almost no track record of reaching out into the physical world and taking action. I'm not aware of any cases of a DAO filing a lawsuit, for instance. However, with the DiversiFi DAO's buyer of last resort contract autonomously buying up distressed debt tokens, the DAO would need to find an efficient way to collect on those debts through the legal system. This raises some very interesting administrative and incorporation questions.
+
+However, it would be best to avoid defaults if at all possible, especially in the formative stages of DiversiFi. Pawnbrokers should be carefully evaluated before being approved to issue debt tokens. In addition, there might be limits on how much debt a single pawnbroker can issue at one time, and any debt defaults should trigger consequences ranging from a reduction of the pawnbrokers' debt limit to expulsion from the system.
 
 ## Next Steps
 
@@ -77,8 +85,10 @@ Write some code.
 
 <sup>2</sup> https://blog.pawnguru.com/pawn-shops
 
-<sup>3</sup>  Or Maker Protocol loans that occasionally have to raise interest rates to protect the soft peg of the Dai to the U.S. dollar.
+<sup>3</sup> Or Maker Protocol loans that occasionally have to raise interest rates to protect the soft peg of the Dai to the U.S. dollar.
 
-<sup>4</sup>  Dai is used as an example, but the debt tokens could be priced in any kind of stablecoin.
+<sup>4</sup> Dai is used as an example, but the debt tokens could be priced in any kind of stablecoin.
 
-<sup>5</sup>  The fiat-to-crypto conversions could be handled by third-party loan management software that provides money services under the hood.
+<sup>5</sup> The fiat-to-crypto conversions could be handled by third-party loan management software that provides money services under the hood.
+
+<sup>6</sup> These are just examples. The actual ratio would be set by DAO governance and could be adjusted up or down depending on the real-world performance of the system.
