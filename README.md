@@ -1,8 +1,7 @@
-# DiversiFi: The Global Crypto Pawn Shop
+<h1 align="center">DiversiFi: The Global Crypto Pawn Shop</h1>
 
-John Shutt
-
-john.d.shutt@gmail.com
+<p align="center">John Shutt</p>
+<p align="center">john.d.shutt@gmail.com</p>
 
 It’s outrageous to pay 50% to 300% annual interest on an overcollateralized loan, but people do every day at pawn shops. It’s a $15 billion per year industry in the United States. Many borrowers are unbanked or underbanked, unable to access better lines of credit. This post outlines the basic operations of DiversiFi, a global and decentralized financial layer for collateralized loans. DiversiFi could slash the interest rates of borrowers, increase the lending capital of pawnbrokers, and provide superior returns for a global network of lenders.
 
