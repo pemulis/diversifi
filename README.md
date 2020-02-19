@@ -51,7 +51,7 @@ The pawnbroker has earned $50 in interest and did not have to deplete their lend
 
 ## Debt Reselling
 
-DiversiFi’s debt marketplace could allow permissionless reselling of the debt token. Tweaking the example earlier, the DiversiFi lender in Switzerland buys the debt token for 500 Dai and immediately offers it for resale at 510 Dai. A DiversiFi lender in Osaka buys the token for 510 Dai the next day. The Switzerland lender has made a one-day profit of 10 Dai and the Osaka lender is entitled to interest payments from the pawnbroker until the principal has been repaid in full. The pawnbroker doesn’t need to concern themselves with who holds the debt token at any given time because they make their payments to a smart contract that routes the money where it is supposed to go.
+DiversiFi’s debt marketplace could allow permissionless reselling of the debt token. Tweaking the example earlier, the lender in Switzerland buys the debt token for 500 Dai and immediately offers it for resale at 510 Dai. A lender in Osaka buys the token for 510 Dai the next day. The Switzerland lender has made a one-day profit of 10 Dai and the Osaka lender is entitled to interest payments from the pawnbroker until the principal has been repaid in full. The pawnbroker doesn’t need to concern themselves with who holds the debt token at any given time because they make their payments to a smart contract that routes the money where it is supposed to go.
 
 ## DiversiFi Buyer of Last Resort
 
