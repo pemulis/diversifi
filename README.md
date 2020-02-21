@@ -7,7 +7,7 @@ It’s outrageous to pay 50% to 300% annual interest on an overcollateralized lo
 
 ## How Pawn Shops Work
 
-A borrower leaves a valuable item as collateral with a pawnbroker, usually a local small business lending money from on its own account. The pawnbroker assesses the item and gives a loan for a fraction of the assessed value, charging a high interest rate. The entire loan usually must be repaid within a certain timeframe, or the borrower must pay interest on the loan and renew the loan for another month. If the borrower fails to meet the terms of the loan, the pawnbroker can sell the collateral.<sup>1</sup> There is no hit to the borrower’s credit score.
+A borrower leaves a valuable item as collateral with a pawnbroker, usually a local small business lending money from its own account. The pawnbroker assesses the item and gives a loan for a fraction of the assessed value, charging a high interest rate. The entire loan usually must be repaid within a certain timeframe, or the borrower must pay interest on the loan and renew the loan for another month. If the borrower fails to meet the terms of the loan, the pawnbroker can sell the collateral.<sup>1</sup> There is no hit to the borrower’s credit score.
 
 ## Why Are Pawnbroker Interest Rates So High?
 
